@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  title: "Energy transition and Gari processing in the Bono Region of Ghana"
+  page-footer:
+    left: "Copyright 2022, Ama Owusu-Darko"
+    background: "#FFAACC"
+    right:
+    - text: "License"
+      href: LICENSE.md
+    - text: "Code of Conduct"
+      href: CODE_OF_CONDUCT.md
+
+  reader-mode: true
+  twitter-card:
+    creator: "@aowusuda"
+  navbar:
+    background: "#FF0011"
+    title: false
+    search: true
+    left:
+      - icon: github
+        href: https://github.com/ktemadarko
+        aria-label: GitHub
+    right:
+      - href: index.qmd
+        text: Introduction
+      - href: about.qmd
+        text: Rationale
+      - href: methods.qmd
+        text: Methods
+  page-navigation: true
+  google-analytics: "G-HSX65HB88V"
+
+format:
+  html:
+    theme: lumen
+    highlight: tango
+    css: styles.css
+    smooth-scroll: true
+    code-overflow: wrap
+    code-link: true
+    toc: true
+    toc-depth: 5
+
+
+editor: visual
+
+
+
